@@ -1,7 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
 .sidebar{
-    border: 5px solid blue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background-color: #4190e4ea;
+    color: #000000;
     grid-row: 1/5;
     grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 50px 300px 300px;
+    gap: 10px;
+}
+
+.view-dashboard .icon{
+    width: 5em;
+}
+.view-dashboard .button{
+    font-size: 52px;
+}
+.view-dashboard{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 24px;
+    margin-bottom: 16px;
+}
+
+.nav-menu{
+    padding-top: 15px;
+    justify-content: center;
+    grid-row: 2/3;
+    display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-list li{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 15px;
 }
 
 .header{

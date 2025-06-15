@@ -175,6 +175,9 @@
 
 .content{
     background-color: #BCCCDC;
+    box-shadow: #424a52 -2px 3px 3px;
+    padding: 5px;
+
 }
 
 .content h5{
@@ -223,6 +226,89 @@
 
 
 
+/* ******************************************************************************** */
+
+
+.rightbar{
+    box-shadow: #424a52 -2px 3px 3px;
+}  
+
+.announcement-container{
+    padding: 10px 10px 10px 10px;
+}
+
+.announcement-card{
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    height: 50%;
+    font-size: 2em;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.announcement-card p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+}
+.trending-container{
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.trending-card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    height: 50%;
+    font-size: 2em;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.announcement{
+    font-size: 3em;
+    padding: 10px 0 0 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.trending-card .profile-image{
+    width: 3em;
+    padding: 5px 10px;
+    
+}
+a:link {
+  text-decoration: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.trending{
+     font-size: 3em;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.trending-card a{
+    padding: 10px;
+    font-family: cursive;
+}
+
+.trending-card p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ******************************************************************************** */
+
+.footer{
+    text-align: center;
+    background-color: #273F4F;
+    color: #efebeb;
+    font-size: 1.5em;
+}
 
 
 
